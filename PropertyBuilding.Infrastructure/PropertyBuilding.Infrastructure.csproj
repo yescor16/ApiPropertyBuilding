@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>PropertyBuilding.Infrastructure</AssemblyName>
+    <RootNamespace>PropertyBuilding.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PropertyBuilding.Domain\PropertyBuilding.Domain.csproj" />
+    <ProjectReference Include="..\PropertyBuilding.Transversal\PropertyBuilding.Transversal.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
